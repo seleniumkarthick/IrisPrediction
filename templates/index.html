@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flower Species Prediction</title>
+</head>
+<body>
+    <h1>Predict Flower Species</h1>
+    <form action="/predict" method="post">
+		<input type="text" name="id" placeholder="Sepal Length" required>
+        <input type="text" name="sepal_length" placeholder="Sepal Length" required>
+        <input type="text" name="sepal_width" placeholder="Sepal Width" required>
+        <input type="text" name="petal_length" placeholder="Petal Length" required>
+        <input type="text" name="petal_width" placeholder="Petal Width" required>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
